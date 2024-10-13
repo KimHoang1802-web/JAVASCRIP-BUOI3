@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập về nhà buổi buổi3</title>
+    <link rel="stylesheet" href="../src/css/output.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="bg-sky-300 font-bold text-center text-sky-800 text-xl rounded-xl mb-5 p-4">BÀI TẬP LÀM QUEN VỚI CẤU TRÚC ĐIỀU KIỆN IF</h2>
+    </div>
+    <div class="container mt-8 bg-sky-100 rounded-xl border-2 border-sky-800">
+        <div class="mb-5">
+            <h3 class="font-bold text-center text-sky-800 text-xl rounded-xl">BÀI TẬP KIỂM TRA SỐ DƯƠNG</h3>
+            <div>
+                <p class=" mt-5 text-center rounded-xl">Yêu cầu: Viết một chương trình yêu cầu người dùng nhập một số và <br>
+                    kiểm tra xem số đó có phải là số dương hay không. Nếu là số dương. In ra thông báo "Số dương"
+                </p>
+            </div>
+            <div class="flex flex-col justify-center items-center mt-5 rounded-xl">
+                <label for="">Nhập vào 1 số: </label>
+                <input type="text" id="number" class="mt-5 border-2 border-sky-500 p-2 rounded-xl" placeholder="Nhập vào 1 số bất kỳ">
+                <button class="mt-5 rounded-xl p-2 bg-sky-300" id="kiemTraSoDuong"> Kiểm tra số dương: </button>
+                <div id="result" class="mt-5"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-8 bg-green-100 rounded-xl border-2 border-green-800">
+        <h3 class="font-bold text-center text-green-800 text-xl rounded-xl">BÀI TẬP KIỂM TRA TUỔI HỌC SINH</h3>
+            <div>
+                <p class="mt-5 text-center rounded-xl">Yêu cầu: Cho tuổi của 1 học sinh. Kiểm tra xem học sinh đó có đủ tuổi để vào lớp 1 hay không (tuổi từ 6 trở lên). <br> Nếu đủ tuổi, in ra " Đủ tuổi vào lớp 1"
+                </p>
+            </div>
+            <div class="flex flex-col justify-center items-center mt-5 rounded-xl">
+                <label for="">Nhập vào tên của học sinh: </label>
+                <input type="text" id="tenHocSinh" class="mt-5 border-2 border-green-500 px-8 py-2 rounded-xl" placeholder="Nhập vào tên của HS">
+            
+                <label class="mt-5" for="">Nhập vào tuổi của học sinh đó: </label>
+                <input type="text" id="Tuoi" class="mt-5 border-2 border-green-500 px-8 py-2 rounded-xl" placeholder="Nhập vào tuổi của HS">
+                <button class="mt-5 rounded-xl p-2 bg-green-300" id="kiemTraTuoi"> Kiểm tra độ tuổi vào lớp 1: </button>
+                <div id="result2" class="mt-5"></div>
+            </div>
+    </div>
+    
+    <div class="container mt-8 bg-rose-100 rounded-xl border-2 border-rose-800">
+        <h3 class="font-bold text-center text-rose-800 text-xl rounded-xl">BÀI TẬP KIỂM TRA SỐ CHẴN</h3>
+            <div>
+                <p class="mt-5 text-center rounded-xl">Yêu cầu: Nhập một số từ người dùng và kiểm tra xem số đó có phải là số chẵn hay không. <br> Nếu là số chẵn, in ra "Số chẵn"
+                </p>
+            </div>
+            <div class="flex flex-col justify-center items-center mt-5 rounded-xl">
+                <label class="mt-5" for="">Nhập vào 1 số bất kỳ: </label>
+                <input type="text" id="evenNumber" class="mt-5 border-2 border-rose-500 px-8 py-2 rounded-xl" placeholder="Nhập vào 1 số bất kỳ">
+                <button class="mt-5 rounded-xl p-2 bg-rose-300" id="kiemTraSoChan"> Kiểm tra số chẵn: </button>
+                <div id="resultEven" class="mt-5"></div>
+            </div>
+    </div>
+
+    <div class="container">
+        <h2 class="bg-purple-300 font-bold text-center text-purple-800 text-xl rounded-xl mt-5 p-4">BÀI TÂP VỚI CÂU ĐIỀU KIỆN IF ELSE</h2>
+    </div>
+
+    <div class="container mt-8 bg-purple-100 rounded-xl border-2 border-purple-800">
+        <h3 class="font-bold text-center text-purple-800 text-xl rounded-xl">KIỂM TRA ĐỘ TUỔI</h3>
+            <div>
+                <p class="mt-5 text-center rounded-xl">Yêu cầu: Viết một chương trình yêu cầu người dùng nhập tuổi của họ và kiểm tra xem họ có đủ tuổi lái xe không (giả sử tuổi tối thiểu là 16). <br> Nếu đủ tạo một thông báo bạn đủ tuổi lái xe còn không thông báo bạn chưa đủ tuổi.
+                </p>
+            </div>
+            <div class="flex flex-col justify-center items-center mt-5 rounded-xl">
+                <label for="">Nhập vào tên của bạn: </label>
+                <input type="text" id="nameYou" class="mt-5 border-2 border-purple-500 px-8 py-2 rounded-xl" placeholder="Nhập vào tên của bạn">
+            
+                <label class="mt-5" for="">Nhập vào tuổi của bạn: </label>
+                <input type="text" id="ageYou" class="mt-5 border-2 border-purple-500 px-8 py-2 rounded-xl" placeholder="Nhập vào tuổi của bạn">
+                <button class="mt-5 rounded-xl p-2 bg-purple-300" id="kiemTraTuoiBan"> Kiểm tra độ tuổi: </button>
+                <div id="checkAge" class="mt-5"></div>
+            </div>
+    </div>
+
+    <div class="container mt-8 bg-pink-100 rounded-xl border-2 border-pink-800">
+        <h3 class="font-bold text-center text-pink-800 text-xl rounded-xl">XÉT THƯỞNG NHÂN VIÊN ĐẠT ĐỦ DOANH SỐ</h3>
+            <div>
+                <p class="mt-5 text-center rounded-xl">Yêu cầu: Viết một chương trình để xét thưởng cho nhân viên. Nếu nhân viên đạt mục tiêu bán hàng trên 100 sản phẩm, thưởng <span class="text-pink-800 font-bold">10%</span> tổng doanh số. <br> Nếu không, không có thưởng.
+                </p>
+            </div>
+            <div class="flex flex-col justify-center items-center mt-5 rounded-xl">
+                <label for="">Nhập vào tên của nhân viên: </label>
+                <input type="text" id="nameNV" class="mt-5 border-2 border-pink-500 px-8 py-2 rounded-xl" placeholder="Nhập vào tên của NV">
+                
+                <label class="mt-5" for="">Tổng doanh số: </label>
+                <input type="text" id="doanhSo" class="mt-5 border-2 border-pink-500 px-8 py-2 rounded-xl" placeholder="Tổng doanh số">
+
+                <label class="mt-5" for="">Nhập vào số lượng sản phẩm bán được: </label>
+                <input type="text" id="soLuong" class="mt-5 border-2 border-pink-500 px-8 py-2 rounded-xl" placeholder="Nhập số lượng SP">
+                <button class="mt-5 rounded-xl p-2 bg-pink-300" id="xetThuong"> Xét thưởng: </button>
+                <div id="checkReward" class="mt-5"></div>
+            </div>
+    </div>
+
+    <div class="container mt-8 bg-indigo-100 rounded-xl border-2 border-indigo-800">
+        <h3 class="font-bold text-center text-indigo-800 text-xl rounded-xl">TÍNH CHIẾT KHẤU</h3>
+            <div>
+                <p class="mt-5 text-center rounded-xl">Yêu cầu: Viết một chương trình để tính chiết khấu cho khách hàng dựa trên số tiền mua hàng. Nếu số tiền mua hàng trên 500 đô, khách hàng sẽ được giảm <span class="text-indigo-800 font-bold">20%</span>,<br>nếu không thì không giảm. 
+                </p>
+            </div>
+            <div class="flex flex-col justify-center items-center mt-5 rounded-xl">
+                <label for="">Nhập vào tên của khách hàng: </label>
+                <input type="text" id="nameKH" class="mt-5 border-2 border-indigo-500 px-8 py-2 rounded-xl" placeholder="Nhập vào tên của KH">
+                
+                <label class="mt-5" for="">Số tiền mua hàng: </label>
+                <input type="text" id="soTien" class="mt-5 border-2 border-indigo-500 px-8 py-2 rounded-xl" placeholder="Số tiền mua hàng">
+
+                <button class="mt-5 rounded-xl p-2 bg-indigo-300" id="xetGiam"> Giảm giá: </button>
+                <div id="checkDiscount" class="mt-5"></div>
+            </div>
+    </div>
+
+    <div class="container mt-5">
+        <h2 class="bg-indigo-300 font-bold text-center text-indigo-800 text-xl rounded-xl mt-5 p-4">BÀI TÂP VỚI TOÁN TỬ ĐIỀU KIỆN</h2>
+    </div>
+    <div class="container mt-8 bg-gradient-to-r from-indigo-200 from-10% via-sky-200 via-30% to-emerald-200 to-90% rounded-xl border-2 border-indigo-800">
+        <h3 class="font-bold text-center text-indigo-800 text-xl rounded-xl">KIỂM TRA MẬT KHẨU MẠNH HAY YẾU</h3>
+            <div>
+                <p class="mt-5 text-center rounded-xl">Yêu cầu: Người dùng nhập mật khẩu và kiểm tra xem mật khẩu có đủ mạnh hay không <span class="text-indigo-800 font-bold">(ít nhất 8 ký tự)</span> 
+                </p>
+            </div>
+            <div class="flex flex-col justify-center items-center mt-5 rounded-xl">
+                <label for="">Nhập vào tên của người dùng: </label>
+                <input type="text" id="nameND" class="mt-5 border-2 border-indigo-500 px-8 py-2 rounded-xl" placeholder="Nhập vào tên của ND">
+                
+                <label class="mt-5" for="">Nhập mật khẩu đăng nhập: </label>
+                <input type="text" id="password" class="mt-5 border-2 border-indigo-500 px-8 py-2 rounded-xl" placeholder="Mật khẩu">
+
+                <button class="mt-5 rounded-xl p-2 bg-gradient-to-r from-teal-400 to-blue-500 hover:from-pink-500 hover:to-orange-500" id="login">Login: </button>
+                <p class="text-indigo-700 mt-5">Lưu ý: <br> Mật khẩu: 
+                    <br>
+                    Bạn hãy nhập ít nhất 8 ký tự
+                    <br>
+                    Trong đó phải có ký tự đặc biệt (!, @, #)
+                </p>
+                <div id="checkPassword" class="mt-5"></div>
+            </div>
+    </div>
+
+    <div class="container mt-5">
+        <h2 class="bg-green-200 font-bold text-center text-green-800 text-xl rounded-xl mt-5 p-4">BÀI TÂP CẤU TRÚC ĐIỀU KIỆN ELSE IF</h2>
+    </div>
+    <div class="container mt-8 bg-gradient-to-r from-green-100 to-green-300  rounded-xl border-2 border-green-800 ">
+        <h3 class="font-bold text-center text-green-800 text-xl rounded-xl">KIỂM TRA KHOẢNG ĐIỂM</h3>
+            <div>
+                <p class="mt-5 text-center rounded-xl">Yêu cầu: Viết chương trình yêu cầu người dùng nhập điểm từ 0 đến 100, <br> sau đó đánh giá xếp loại dựa trên điểm số nhập vào
+                </p>
+            </div>
+            <div class="flex flex-col justify-center items-center mt-5 rounded-xl">
+                <label for="">Nhập vào tên của học sinh/ sinh viên: </label>
+                <input type="text" id="nameHSSV" class="mt-5 border-2 border-green-500 px-8 py-2 rounded-xl" placeholder="Nhập vào tên của HS/SV">
+                
+                <label class="mt-5" for="">Nhập điểm: </label>
+                <input type="text" id="nhapDiem" class="mt-5 border-2 border-green-500 px-8 py-2 rounded-xl" placeholder="Nhập điểm">
+
+                <button class="mt-5 rounded-xl p-2 bg-green-300" id="xetDiem">Kiểm tra khoảng điểm: </button>
+                <div id="checkDiem" class="mt-5"></div>
+            </div>
+    </div>
+    <script src="../src/js/main.js"></script>
+</body>
+</html>
